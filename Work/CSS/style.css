@@ -1,0 +1,130 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    font-family: helvetica, sans-serif;
+    background-color: #fff;
+}
+
+.mainheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0, 24px;
+    background-color: #fff;
+    color: #505050;
+    height: 90px;
+    box-shadow: -2px 2px 8px 2px rgba(32, 32, 32, 0.747);
+}
+
+.CDHLogo {
+    width: 110px;
+    height: auto;
+    margin: 0 16px 0 0;
+
+}
+
+.mainnavigation {
+    display: flex;
+    align-items: center;
+}
+.navitem {
+    padding: 0 30px;
+}
+
+.Content {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutmeinfo {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0;
+    width: 60%;
+    background-color: #fff;
+    border-color: #fff;
+    border-style: solid;
+    border-radius: 16px;
+    align-items: center;
+    box-shadow: -2px 2px 8px 2px rgba(32, 32, 32, 0.747);
+}
+
+.aboutmeinfo h1 {
+    font-size: 65px;
+    margin-bottom: 4px;
+    margin-top: auto;
+    color: #6B1AA3;
+}
+
+.aboutmeinfo h2 {
+    font-size: 24px;
+    margin: 0;
+    color: #505050;
+    margin: 40px;
+    font-weight: 100;
+}
+
+.heroIMG {
+    max-width: 200px;
+    height: auto;
+    margin: 10px;
+}
+
+.mainfooter {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    height: 40px;
+    color: #505050;
+    box-shadow: -2px 2px 8px 2px rgba(32, 32, 32, 0.747);
+}
+
+.footernav {
+    display: flex;
+    justify-content: first baseline;
+    align-items: center;
+    
+}
+.footeritem {
+    padding: 0 30px;
+}
+
+.button {
+color: #fff;
+background-color:#6B1AA3;
+padding: 6px;
+border-radius: 8px;
+}
+
+.p {
+    display: flex;
+    align-items: center;
+}
+
+.pagetitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #6B1AA3;
+    font-size: 65px;
+}
+
+
+.skillboxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
